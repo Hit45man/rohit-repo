@@ -21,6 +21,6 @@ resource "aws_db_instance" "my-db" {
 
   tags = {
     name = "mysql rds instance"
-    Project_Name = "Rohit Terraform"
+    
   }
 }
