@@ -15,7 +15,7 @@ resource "aws_db_instance" "my-db" {
   password             = var.password
   parameter_group_name = "default.mysql5.7"
   availability_zone    = "ap-south-1a"
-  publicly_accessible  = true
+  publicly_accessible  = false
   skip_final_snapshot  = true
 
 
